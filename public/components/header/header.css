@@ -1,0 +1,635 @@
+
+    form {
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        position: absolute;
+        width: 1650px;
+        margin-left: 140px;
+        height: 80px;
+        
+        background-color: #696969;
+        }
+        button {
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        background-image: url("free-icon-loupe-751463.png");
+        background-size: 0px 0px;
+        position: absolute; 
+        top: 19px;
+        right: 1400px;
+        width: 42px;
+        height: 42px;
+        padding-right: 1px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        background: #ffdff5;
+        border-radius:30% 0% 0% 30%;
+        cursor: pointer;
+        }
+        button:before {
+            content:"🔍︎";
+        font-size: 25px;
+        color: #000000;
+        }
+        
+        input {
+            display:flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+        position: absolute;
+        right: 400px;
+        width: 1000px;
+        height: 42px;
+        padding-left: 10px;
+        border: 0px solid #70265a;
+        border-radius: 0 15px 15px 0;
+        top:19px;
+        outline: none;
+        background: #ffdff5;
+        color: #757575;
+        font-size: 20px;
+        font-family: 'Century Gothic','Lucida Console';
+        }
+        
+       
+    
+        button1 {
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        position: absolute; 
+        top: 19px;
+        right: 150px;
+        width: 100px;
+        height: 42px;
+        border: 1px solid #af5594;
+        background: #f7f1f5;
+        border-radius:15px;
+        cursor: pointer;
+        text-align:center;
+        
+        }
+        button1:before {
+        content: "Войти";
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: #af5594;
+        line-height: 2em;
+        }
+        button2 {
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            background-image: url("headerlogo.png") ;
+            background-position: 2px -6px;
+            background-size: 100% 130%;
+            background-repeat: no-repeat;
+            position: absolute; 
+            top: 10px;
+            right: 1550px;
+            width: 200px;
+            height: 60px;
+            cursor: pointer;
+        }
+        form2{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute;
+            width: 1650px;
+            margin-left: 140px;
+            height: 60px;
+            top: 80px;
+            background-color: #5a0075;
+        }
+        button3{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute; 
+        top: 90px;
+        right: 1220px;
+        width: 100px;
+        height: 40px;
+        border: none;
+        background: #9600bb;
+        border-radius:10px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button3::before{
+            content: "ВСЕ";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 30px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.30em;
+        }
+
+        button4{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        position: absolute; 
+        top: 90px;
+        right: 1073px;
+        width: 130px;
+        height: 40px;
+        border: none;
+        background: #9600bb;
+        border-radius:10px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button4::before{
+            content: "КИНО";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 30px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.30em;
+        }
+
+        button5{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute; 
+        top: 90px;
+        right: 929px;
+        width: 80px;
+        width: 130px;
+        height: 40px;
+        background: #9600bb;
+        border-radius:10px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button5::before{
+            content: "ТЕАТР";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 30px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.30em;
+        }
+        
+        button6{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute; 
+        top: 90px;
+        right: 710px;
+        width: 200px;
+        height: 40px;
+        border: none;
+        background: #9600bb;
+        border-radius:10px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button6::before{
+            content: "ВЫСТАВКИ";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 30px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.30em;
+        }
+
+
+
+@media screen and (max-width:1366px) and (max-height:720px){
+    form {
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 1180px;
+        margin-left: 88px;
+        height: 80px;
+        
+        background-color: #888888;
+        }
+        button {
+            display:flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+        background-image: url("free-icon-loupe-751463.png");
+        background-size: 0px 0px;
+        position: absolute; 
+        top: 19px;
+        right: 926px;
+        width: 42px;
+        height: 42px;
+        padding-right: 1px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        background: #ffdff5;
+        border-radius:30% 0% 0% 30%;
+        cursor: pointer;
+        }
+        button:before {
+            
+        content:"🔍︎";
+        
+        font-size: 25px;
+        color: #000000;
+        
+        }
+        
+        input {
+            display:flex;
+            flex-direction: row-reverse;
+        position: absolute;
+        right: 326px;
+        width: 600px;
+        height: 42px;
+        padding-left: 10px;
+        border: 0px solid #70265a;
+        border-radius: 0 15px 15px 0;
+        top:19px;
+        outline: none;
+        background: #ffdff5;
+        color: #757575;
+        font-family: 'Century Gothic','Lucida Console';
+        font-size: 20px;
+        }
+        
+       
+    
+        button1 {
+            display:flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+        position: absolute; 
+        top: 19px;
+        right: 120px;
+        width: 100px;
+        height: 42px;
+        border: 1px solid #af5594;
+        background: #f7f1f5;
+        border-radius:15px;
+        cursor: pointer;
+        text-align:center;
+        
+        }
+        button1:before {
+            display:flex;
+            flex-direction: row-reverse;
+        content: "Войти";
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        color: #af5594;
+        line-height: 1.60em;
+        }
+        button2 {
+            display:flex;
+            flex-direction: row-reverse;
+            background-image: url("headerlogo.png") ;
+            background-position: 2px -6px;
+            background-size: 100% 130%;
+            background-repeat: no-repeat;
+            position: absolute; 
+            top: 10px;
+            right: 1060px;
+            width: 200px;
+            height: 60px;
+            cursor: pointer;
+        }
+    
+        form2{
+            display:flex;
+            flex-direction: row-reverse;
+            position: absolute;
+            width: 1180px;
+            margin-left: 88px;
+            height: 50px;
+            top: 80px;
+            background-color: #5a0075;
+        }
+        button3{
+            display:flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            position: absolute; 
+        top: 86px;
+        right: 847px;
+        width: 80px;
+        height: 36px;
+        border: none;
+        background: #9600bb;
+        border-radius:10px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button3::before{
+        
+            content: "ВСЕ";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 20px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.80em;
+        }
+
+        button4{
+            display:flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            position: absolute; 
+        top: 86px;
+        right: 750px;
+        width: 80px;
+        height: 36px;
+        border: none;
+        background: #9600bb;
+        border-radius:10px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button4::before{
+            content: "КИНО";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 20px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.80em;
+        }
+
+        button5{
+            display:flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            position: absolute; 
+        top: 86px;
+        right: 653px;
+        width: 80px;
+        height: 36px;
+        border: none;
+        background: #9600bb;
+        border-radius:10px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button5::before{
+            content: "ТЕАТР";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 20px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.80em;
+        }
+        
+        button6{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute; 
+        top: 86px;
+        right: 515px;
+        width: 120px;
+        height: 36px;
+        border: none;
+        background: #9600bb;
+        border-radius:10px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button6::before{
+            content: "ВЫСТАВКИ";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 20px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.80em;
+        }
+}
+/* Дисплей для iphone */
+@media screen and (max-width:414px) and (max-height:896px){
+    form {
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        position: absolute;
+        width: 414px;
+        margin-left: 0px;
+        height: 35px;
+        
+        background-color: #7a7a7a;
+        }
+        button {
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        background-image: url("free-icon-loupe-751463.png");
+        background-size: 0px 0px;
+        position: absolute; 
+        top: 10px;
+        right: 226px;
+        width: 30px;
+        height: 20px;
+        padding-right: 1px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        background: #ffdff5;
+        border-radius:35% 0% 0% 35%;
+        cursor: pointer;
+        }
+        button:before {
+            content:"🔍︎";
+        font-size: 10px;
+        color: #000000;
+        
+        }
+        
+        input {
+            display:flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+        position: absolute;
+        right: 110px;
+        width: 120px;
+        height: 20px;
+        padding-left: 10px;
+        border: 0px solid #70265a;
+        border-radius: 0 9px 9px 0;
+        top:10px;
+        outline: none;
+        background: #ffdff5;
+        color: #757575;
+        font-family: 'Century Gothic','Lucida Console';
+        font-size: 7px;
+        }
+        
+       
+    
+        button1 {
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        position: absolute; 
+        top: 5px;
+        right: 10px;
+        width:50px;
+        height: 28px;
+        border: 1px solid #af5594;
+        background: #f7f1f5;
+        border-radius:10px;
+        cursor: pointer;
+        text-align:center;
+        
+        }
+        button1:before {
+        content: "Войти";
+        font-family: 'Century Gothic','Lucida Console';
+        font-size: 10px;
+        color: #af5594;
+        line-height: -1.60em;
+        
+        }
+        button2 {
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            background-image: url("headerlogo.png") ;
+            background-position: 2px -6px;
+            background-size: 100% 150%;
+            background-repeat: no-repeat;
+            position: absolute; 
+            top: 5px;
+            right: 300px;
+            width: 100px;
+            height: 30px;
+            cursor: pointer;
+        }
+    
+        form2{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute;
+            width: 414px;
+            margin-left: 0px;
+            height: 50px;
+            top: 35px;
+            background-color: #5a0075;
+        }
+        button3{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute; 
+        top: 42px;
+        right: 330px;
+        width: 80px;
+        height: 36px;
+        border: none;
+        background: #9600bb;
+        border-radius:5px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button3::before{
+            content: "ВСЕ";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 20px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.80em;
+        }
+
+        button4{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute; 
+        top: 42px;
+        right: 235px;
+        width: 90px;
+        height: 36px;
+        border: none;
+        background: #9600bb;
+        border-radius:5px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button4::before{
+            content: "КИНО";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 20px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.80em;
+        }
+
+        button5{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute; 
+        top: 42px;
+        right: 130px;
+        width: 100px;
+        height: 36px;
+        border: none;
+        background: #9600bb;
+        border-radius:5px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button5::before{
+            content: "ТЕАТР";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 20px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.80em;
+        }
+        
+        button6{
+            display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+            position: absolute; 
+        top: 42px;
+        right: 5px;
+        width: 120px;
+        height: 36px;
+        border: none;
+        background: #9600bb;
+        border-radius:5px;
+        cursor: pointer;
+        text-align:center;
+        }
+        button6::before{
+            content: "ВЫСТАВКИ";
+            font-family: 'Century Gothic','Lucida Console';
+            font-size: 20px;
+            font-weight:900;
+            font-stretch: 200%;
+            color: #fcfcfc;
+            line-height: 1.80em;
+        }
+}
