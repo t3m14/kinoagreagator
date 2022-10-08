@@ -1,0 +1,132 @@
+@font-face {
+    font-family: comfortaa;
+    src: url(./font/Comfortaa/static/Comfortaa-Regular.ttf);
+}
+p{
+    font-family: comfortaa;
+}
+.card_block{
+    width: 900px;
+    height: 500px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background: url(./image/card_background.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bottom_block{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background:  rgba(157, 77, 186, 0.8);
+}
+.info{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+.buy{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desk_block{
+    width: 96%;
+    height: auto; 
+    margin: 10px auto;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.deskription{
+    line-height: 1.5;
+    margin: 0px 0px;
+    padding: 5px;
+    color: black;
+}
+.title{
+    margin: 10px 0px 10px 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+.buy_block{
+    width: 96%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.btn_block{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.btn1{
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background:rgba(84, 13, 110, 1);
+}
+.btn2{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background:rgba(84, 13, 110, 1);
+}
+.images_btn1{
+    height: 60%;
+}
+.images_btn2{
+    height: 50%;
+    margin-right: 10px;
+}
+.dowload_text{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.images_btn{
+    transition: 0.2s;
+}
+.btnOneAndTwo{
+    transition: 0.2s;
+}
+.btnOneAndTwo:hover{
+    background: rgba(84, 13, 110, 0.7);
+}
+.btnOneAndTwo:hover .images_btn{
+    filter: invert(90%);
+}
+@media all and (max-width:760px){
+    .bottom_block{
+        flex-direction: column;
+    }
+    .info{
+        width: 100%;
+    }
+    .buy{
+        width: 100%;
+    }
+}
