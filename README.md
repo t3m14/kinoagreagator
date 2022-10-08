@@ -2,9 +2,9 @@
 ***
 ``` спользуеммые технологии: ```
 1. backend
-  - django-rest-framework
-  - BS4
-  - requests
+    - django-rest-framework
+    - BS4
+    - requests
 2. frontend
   - react
 ***
