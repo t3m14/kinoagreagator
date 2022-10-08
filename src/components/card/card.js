@@ -42,8 +42,10 @@ function card() {
 function popUp() {
     let cont=document.querySelector('.popUpContainer').classList.add('popUp_active');
   }
-  function close() {
+function close() {
     let cont=document.querySelector('.popUpContainer').classList.remove('popUp_active');
   }
 
+  
 export default card;
+export default popUp;
