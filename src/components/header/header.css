@@ -7,7 +7,7 @@
         width: 1650px;
         margin-left: 140px;
         height: 80px;
-        
+        overflow: hidden;
         background-color: #696969;
         }
         button {
@@ -16,9 +16,9 @@
         justify-content: center;
         background-image: url("free-icon-loupe-751463.png");
         background-size: 0px 0px;
-        position: absolute; 
+        position: fixed; 
         top: 19px;
-        right: 1400px;
+        left: 480px;
         width: 42px;
         height: 42px;
         padding-right: 1px;
@@ -41,7 +41,7 @@
             flex-direction: row-reverse;
             justify-content: center;
         position: absolute;
-        right: 400px;
+        left: 520px;
         width: 1000px;
         height: 42px;
         padding-left: 10px;
@@ -63,7 +63,7 @@
         justify-content: center;
         position: absolute; 
         top: 19px;
-        right: 150px;
+        left: 1650px;
         width: 100px;
         height: 42px;
         border: 1px solid #af5594;
@@ -90,7 +90,7 @@
             background-repeat: no-repeat;
             position: absolute; 
             top: 10px;
-            right: 1550px;
+            left: 180px;
             width: 200px;
             height: 60px;
             cursor: pointer;
@@ -112,7 +112,7 @@
         justify-content: center;
             position: absolute; 
         top: 90px;
-        right: 1220px;
+        left: 600px;
         width: 100px;
         height: 40px;
         border: none;
@@ -137,7 +137,7 @@
         justify-content: center;
         position: absolute; 
         top: 90px;
-        right: 1073px;
+        left: 710px;
         width: 130px;
         height: 40px;
         border: none;
@@ -162,7 +162,7 @@
         justify-content: center;
             position: absolute; 
         top: 90px;
-        right: 929px;
+        left: 859px;
         width: 80px;
         width: 130px;
         height: 40px;
@@ -187,7 +187,7 @@
         justify-content: center;
             position: absolute; 
         top: 90px;
-        right: 710px;
+        left: 1010px;
         width: 200px;
         height: 40px;
         border: none;
