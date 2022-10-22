@@ -21,3 +21,6 @@
 ```Figma ```
 
 https://www.figma.com/file/dTyZYpsIWmDJr5UVmPqEHE/KinoObmorok
+```Backend ```
+
+http://62.113.106.128:8000/
