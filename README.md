@@ -19,4 +19,5 @@
 - [ ] Подключить frontend к rest-api.
 
 ```Figma ```
+
 https://www.figma.com/file/dTyZYpsIWmDJr5UVmPqEHE/KinoObmorok
